@@ -1,0 +1,33 @@
+body{
+  background-color: #2d2e30;
+}
+
+div.title{
+  height: 100px;
+  width:100%;
+  background-color:black;
+}
+
+li.nav{
+  display:inline-block;
+  color: white;
+  list-style: none;
+  float:left;
+  margin:5px;
+  border: white;
+  border-radius: 50px;
+  border-width: medium;
+  background: white;
+}
+
+li.nav:hover{
+  background:red;
+}
+
+div.section{
+  height: inherit;
+  width:100%;
+  background-color:red;
+  margin: 10px 0px;
+
+}
